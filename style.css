@@ -1,0 +1,170 @@
+/* =========================
+   UNIVERSAL SELECTOR
+   ========================= */
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* =========================
+   BODY
+   ========================= */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #333333;
+
+    margin: 40px;
+    padding: 20px;
+
+    line-height: 1.6;
+}
+
+
+/* =========================
+   H1 - MAIN HEADING
+   ========================= */
+
+h1 {
+    color: #1f2937;
+    text-align: center;
+
+    font-size: 40px;
+
+    margin-bottom: 10px;
+}
+
+
+/* =========================
+   H2 - SECTION HEADINGS
+   ========================= */
+
+h2 {
+    color: #2563eb;
+
+    border-bottom: 2px solid #2563eb;
+
+    padding-bottom: 5px;
+
+    margin-top: 30px;
+}
+
+
+/* =========================
+   H3 - SUB HEADINGS
+   ========================= */
+
+h3 {
+    color: #374151;
+
+    margin-top: 20px;
+}
+
+
+/* =========================
+   PARAGRAPHS
+   ========================= */
+
+p {
+    font-size: 16px;
+}
+
+
+/* =========================
+   LIST
+   ========================= */
+
+ul {
+    padding-left: 30px;
+}
+
+
+/* =========================
+   LIST ITEMS
+   ========================= */
+
+li {
+    margin-bottom: 8px;
+}
+
+
+/* =========================
+   HORIZONTAL LINE
+   ========================= */
+
+hr {
+    border: none;
+
+    border-top: 1px solid #cccccc;
+
+    margin: 30px 0;
+}
+
+
+/* =========================
+   TABLE
+   ========================= */
+
+table {
+    width: 100%;
+
+    border-collapse: collapse;
+
+    background-color: white;
+}
+
+
+/* =========================
+   TABLE HEADER & DATA
+   ========================= */
+
+th,
+td {
+    border: 1px solid #cccccc;
+
+    padding: 12px;
+
+    text-align: left;
+}
+
+
+/* =========================
+   TABLE HEADER
+   ========================= */
+
+th {
+    background-color: #2563eb;
+
+    color: white;
+}
+
+
+/* =========================
+   FIRST COLUMN OF TABLE
+   ========================= */
+
+td:first-child {
+    font-weight: bold;
+}
+
+
+/* =========================
+   LINKS
+   ========================= */
+
+a {
+    color: #2563eb;
+
+    text-decoration: none;
+}
+
+
+/* =========================
+   LINK HOVER
+   ========================= */
+
+a:hover {
+    text-decoration: underline;
+}
